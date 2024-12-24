@@ -24,12 +24,6 @@ D_K(E_K(P)) = P
 
 for all plaintexts  P .
 
-Example:
-
-For a block size of  n = 128 :
-	•	Encryption: Takes a 128-bit plaintext block and produces a 128-bit ciphertext block.
-	•	Decryption: Reverses the transformation using the same key.
-
 Properties:
 	•	Each key  K  defines a unique permutation (bijection) over the set of  2^n -bit blocks.
 	•	The set of all possible permutations is  (2^n)! , but the key space is limited by  k , allowing  2^k  permutations.
